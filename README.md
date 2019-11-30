@@ -1,9 +1,9 @@
 # deno-slash
 
-[![tag](https://img.shields.io/github/tag/justjavac/deno-slash.svg)](https://github.com/justjavac/deno-slash)
+[![tag](https://img.shields.io/github/release/justjavac/deno-slash)](https://github.com/justjavac/deno-slash/releases)
 [![Build Status](https://github.com/justjavac/deno-slash/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/deno-slash/actions)
-[![license](https://img.shields.io/github/license/justjavac/deno-slash.svg)](https://github.com/justjavac/deno-slash)
-[![tag](https://img.shields.io/badge/deno-v0.25.0-green.svg)](https://github.com/denoland/deno)
+[![license](https://img.shields.io/github/license/justjavac/deno-slash)](https://github.com/justjavac/deno-slash/blob/master/LICENSE)
+[![](https://img.shields.io/badge/deno-v0.25.0-green.svg)](https://github.com/denoland/deno)
 
 > Convert Windows backslash paths to slash paths: `foo\\bar` ➔ `foo/bar`
 
