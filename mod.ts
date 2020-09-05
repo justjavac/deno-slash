@@ -16,6 +16,7 @@
  */
 export default function slash(path: string): string {
   const isExtendedLengthPath = /^\\\\\?\\/.test(path);
+  // deno-lint-ignore no-control-regex
   const hasNonAscii = /[^\u0000-\u0080]+/.test(path);
 
   if (isExtendedLengthPath || hasNonAscii) {
